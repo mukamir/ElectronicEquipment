@@ -46,7 +46,7 @@ public class TextBook extends ReadingMaterial
 	@Override
 	public String toString()
 	{
-		return "\nText Book: \n"            + super.toString() + 
+		return "\nText Book: \n"                + super.toString() + 
 			   "\n             Subject: "   + this.getSubject() +
 			   "\n             Edition: "   + this.getEdition();
 	}
